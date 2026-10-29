@@ -1,0 +1,7 @@
+summary: 'Pipeline de ofertas do pedevapor.shop: scraper + copy Gemini + payload
+  Evolution API. Espelhado em git.'
+display_name: ofertas
+extra_perms:
+  u/jhdp6425: true
+owners:
+  - u/jhdp6425

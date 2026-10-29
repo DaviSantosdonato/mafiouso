@@ -1,0 +1,23 @@
+codebases: []
+excludes: []
+includeGroups: false
+includeKey: false
+includes:
+  - f/**
+includeSchedules: true
+includeSettings: false
+includeTriggers: true
+includeUsers: false
+nonDottedPaths: true
+skipApps: false
+skipDatatableMigrations: false
+skipFlows: false
+skipFolders: false
+skipResources: false
+skipResourceTypes: false
+skipScripts: false
+skipSecrets: true
+skipVariables: false
+skipWorkspaceDependencies: false
+syncBehavior: v1
+workspaces: {}

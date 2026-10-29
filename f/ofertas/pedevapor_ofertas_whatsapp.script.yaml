@@ -1,0 +1,48 @@
+summary: Scrape das ofertas do pedevapor.shop, copy com Gemini 3.5 Flash-Lite e
+  payload pronto para a Evolution API (formato n8n).
+description: ''
+lock: '!inline f/ofertas/pedevapor_ofertas_whatsapp.script.lock'
+kind: script
+schema:
+  $schema: https://json-schema.org/draft/2020-12/schema
+  type: object
+  properties:
+    apenas_disponiveis:
+      type: boolean
+      description: ''
+      default: true
+    engine:
+      type: string
+      description: ''
+      default: auto
+      originalType: string
+    gemini_api_key:
+      type: string
+      description: ''
+      default: ''
+      originalType: string
+    max_paginas:
+      type: integer
+      description: ''
+      default: 2
+    max_produtos:
+      type: integer
+      description: ''
+      default: 3
+    model:
+      type: string
+      description: ''
+      default: gemini-3.5-flash-lite
+      originalType: string
+    urls_alvo:
+      type: array
+      description: ''
+      default: null
+      items:
+        type: string
+      originalType: string[]
+    usar_gemini:
+      type: boolean
+      description: ''
+      default: true
+  required: []
